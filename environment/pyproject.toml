@@ -1,0 +1,24 @@
+[tool.poetry]
+name = " gas-detect "
+version = "0.1.0"
+description = "This project detects flammable gas like methane and propane in thermal videos"
+authors = ["Antonios Koutroumpas <antonkout@gmail.com>"]
+license = "Copyright 2022 AntonKout, all rights reserved."
+
+[tool.poetry.dependencies]
+python = "^3.8"
+opencv-python = "^4.6"
+numpy = "1.24.3"
+scikit-image = "0.19.3"
+loguru = "*"
+scipy = "^1.6"
+scikit-learn = "1.0.2"
+tqdm = "*"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
