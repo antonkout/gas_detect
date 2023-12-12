@@ -29,7 +29,7 @@ The research focuses on designing an automatic gas detection and visualization s
 
     The combined approach effectively isolates low-motion objects with slow movement, specifically pedestrians and the gas plume, providing a refined representation of the target motion in the thermal video.
     
-    ![Background Extraction GIF](/home/antonkout/Documents/modules/gas_detect/dev/background_extraction.gif)
+    ![Background Extraction GIF](./figures/background_extraction.gif)
 
 2. **Dataset Creation:**
     Constructing data cubes to capture motion involves the following steps:
@@ -48,7 +48,7 @@ The research focuses on designing an automatic gas detection and visualization s
     **Training Data:**
     - Save these generated data cubes for training purposes.
 
-    ![Dataset Preparation](/home/antonkout/Documents/modules/gas_detect/dev/grid.png)
+    ![Dataset Preparation](./figures/grid.png)
 
     This process enables the effective representation of motion patterns in a video sequence, facilitating training for various applications such as motion detection or analysis.
 
@@ -120,7 +120,7 @@ The research focuses on designing an automatic gas detection and visualization s
     - Accelerates the system, enabling near real-time detections.
 
 ### Results Overview:
-![Prediction](/home/antonkout/Documents/modules/gas_detect/dev/Screencast from 15-11-2023 01_28_31 ΜΜ.gif)
+![Prediction](./figures/prediction.gif)
 
 ## Project Structure
 
