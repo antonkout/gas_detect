@@ -46,7 +46,10 @@ The research focuses on designing an automatic gas detection and visualization s
     **Training Data:**
     - Save these generated data cubes for training purposes.
 
-    ![Dataset Preparation](./figures/grid.png)
+    <p align="center">
+        <img src="./figures/grid.png" alt="Grid">
+    </p>
+
 
     This process enables the effective representation of motion patterns in a video sequence, facilitating training for various applications such as motion detection or analysis.
 
@@ -101,13 +104,13 @@ The research focuses on designing an automatic gas detection and visualization s
 
     For thermal video frame detection, the following approach was employed:
 
-    - **Foreground Isolation:**
+    **Foreground Isolation:**
     - The gas plume, indicative of the foreground, was isolated from the background.
     - The percentage of foreground pixels in each patch was computed.
-    - **Prediction Area:**
+    **Prediction Area:**
     - If more than 50% of pixels were positive, the entire patch was labeled as positive.
     - This labeled area served as the prediction zone.
-    - **Integrated Approach:**
+    **Integrated Approach:**
     - Integrates background extraction with classifier detection.
     - Focuses exclusively on patches flagged by background extraction for gas plume presence.
     - Accelerates the system, enabling near real-time detections.
